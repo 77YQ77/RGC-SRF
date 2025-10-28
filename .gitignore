@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.env
+venv/
+env/
+
+# 模型文件（使用Git LFS或外部存储）
+models/checkpoints/*.pth
+models/checkpoints/*.pt
+models/checkpoints/*.ckpt
+*.safetensors
+
+# 大型数据集（使用外部链接）
+datasets/raw/
+datasets/processed/
+*.tar
+*.tar.gz
+*.zip
+data/
+*.parquet
+*.arrow
+
+# 日志和输出
+logs/
+*.log
+runs/
+outputs/
+results/
+
+# 图片和媒体文件（除了示例）
+*.png
+*.jpg
+*.jpeg
+!docs/images/*.png
+!docs/images/*.jpg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# 临时文件
+*.tmp
+*.backup
+*.bak
+temp/
+tmp/
+
+# 实验配置（可能包含敏感信息）
+experiments/*/config_private.yaml
+*.secret
+*.key
+
+# 缓存
+.cache/
+*.cache
+.pytest_cache/
+
